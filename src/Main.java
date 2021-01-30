@@ -6,21 +6,17 @@ import java.awt.event.ActionListener;
 import java.awt.image.BufferStrategy;
 */
 import javafx.application.Application;
-import javafx.event.EventHandler;
 import javafx.scene.Group;
 import javafx.scene.Scene;
 import javafx.scene.canvas.Canvas;
 import javafx.scene.canvas.GraphicsContext;
-import javafx.scene.input.MouseEvent;
 import javafx.scene.paint.Color;
-import javafx.scene.shape.*;
-import javafx.scene.text.Font;
 import javafx.stage.Stage;
 
 public class Main extends Application {
 
-    private int width = 800;
-    private int height = width / 16 * 9;
+    private final int width  = 800;
+    private final int height = width / 16 * 9;
 
     public static void main(String[] args) {
         launch(args);
